@@ -1,2 +1,2 @@
 # BlueBot
-An artifical intelleget bot for chit-chat, education and entertainment
+An artifical intelligent bot for chit-chat, education and entertainment
