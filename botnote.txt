@@ -1,0 +1,15 @@
+install vmware tool:
+	sudo apt install open-vm-tools/
+	open-vm-tools-desktop/
+	open-vm-tools-dkms
+sound fix
+	sudo apt install alsa-mixer
+	alsamixer # configure sounnd
+
+festival -i
+(voice_cmu_us_slt_arctic_hts)
+(SayText "Please say clearly. I am really tired!")
+
+To permanently change the default voice you can add a line like this to the end of
+	/usr/share/festival/festival.scm
+		(set! voice_default voice_cmu_us_slt_arctic_hts)
