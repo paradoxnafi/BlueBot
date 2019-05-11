@@ -13,3 +13,4 @@ festival -i
 To permanently change the default voice you can add a line like this to the end of
 	/usr/share/festival/festival.scm
 		(set! voice_default voice_cmu_us_slt_arctic_hts)
+trying mps-youtube for streaming mp3 from youtube
