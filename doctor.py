@@ -1,3 +1,5 @@
+# This code is not in use with BlueBot
+# Using Infermedica api to predic disease depending on symptoms of a patient
 import infermedica_api
 
 infermedica_api.configure(app_id='63e33688', app_key='20c0dcc2ee5d6fc2e0cf6bf2e43fc0c5')
