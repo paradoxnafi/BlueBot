@@ -11,6 +11,16 @@ festival -i
 (SayText "Please say clearly. I am really tired!")
 
 To permanently change the default voice you can add a line like this to the end of
-	/usr/share/festival/festival.scm
+	/etc/festival.scm
 		(set! voice_default voice_cmu_us_slt_arctic_hts)
 trying mps-youtube for streaming mp3 from youtube
+
+
+For better voice:
+sudo apt-get install festlex-cmu
+https://ubuntuforums.org/showthread.php?t=677277
+
+Festival guide:
+http://festvox.org/festvox-2.1/c180.html
+Festival read from text filr
+festival --tts shortStory.txt
