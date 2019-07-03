@@ -10,6 +10,7 @@ def speechToText():
 		try:
 			voice = r.listen(source)
 			Question = r.recognize_google(voice)
+			print("You: " + Question)
 			return Question
 		except Exception:
 			# Recursively call this function if any issue or timeout
